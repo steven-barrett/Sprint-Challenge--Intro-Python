@@ -3,6 +3,7 @@ import csv
 # fields for name, lat and lon (representing latitude and longitude).
 
 
+
 class City:
     def __init__(self, name, lat, lon):
         self.name = name

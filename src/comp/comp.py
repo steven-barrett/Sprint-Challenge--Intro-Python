@@ -11,7 +11,6 @@ class Human:
     def __repr__(self):
         return f"<Human: {self.name}, {self.age}>"
 
-
 humans = [
     Human("Alice", 29),
     Human("Bob", 32),
@@ -73,3 +72,5 @@ print(g)
 print("Square root of ages:")
 h = [math.sqrt(i.age) for i in humans]
 print(h)
+
+
